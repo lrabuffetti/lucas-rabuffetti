@@ -8,23 +8,23 @@ class Header extends Component {
         this.navigationItems = {
             items: [
                 {
-                    link: '/',
+                    link: 'https://lrabuffetti.github.io/lucas-rabuffetti/',
                     name: 'home'
                 },
                 {
-                    link: '/experience',
+                    link: 'https://lrabuffetti.github.io/lucas-rabuffetti/experience',
                     name: 'experience'
                 },
                 {
-                    link: '/content',
+                    link: 'https://lrabuffetti.github.io/lucas-rabuffetti/content',
                     name: 'education'
                 },
                 {
-                    link: '/skills',
+                    link: 'https://lrabuffetti.github.io/lucas-rabuffetti/skills',
                     name: 'skills'
                 },
                 {
-                    link: '/about',
+                    link: 'https://lrabuffetti.github.io/lucas-rabuffetti/about',
                     name: 'about me'
                 }
             ]
