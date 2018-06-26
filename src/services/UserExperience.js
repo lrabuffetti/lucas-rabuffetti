@@ -18,7 +18,6 @@ class UserExperience extends Component {
       .get('work-experience')
       .then(response => {
         const experienceInformation = response.data.data;
-        console.log(typeof experienceInformation);
         this.setState({ experienceInformation });
       })
       .catch(error => console.log(error));
