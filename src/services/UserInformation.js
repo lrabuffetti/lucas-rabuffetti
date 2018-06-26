@@ -12,7 +12,7 @@ class UserInfo extends Component {
 
   componentDidMount() {
     const ax = axios.create({
-      baseURL: 'http://demo7092324.mockable.io/'
+      baseURL: 'https://demo7092324.mockable.io/'
     });
     ax
       .get('education')

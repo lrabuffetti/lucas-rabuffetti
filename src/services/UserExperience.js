@@ -12,7 +12,7 @@ class UserExperience extends Component {
 
   componentDidMount() {
     const ax = axios.create({
-      baseURL: 'http://demo7092324.mockable.io/'
+      baseURL: 'https://demo7092324.mockable.io/'
     });
     ax
       .get('work-experience')
