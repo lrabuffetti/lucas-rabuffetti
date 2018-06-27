@@ -5,19 +5,17 @@ import Content from '../content/Content';
 import Experience from '../experience/Experience';
 import Skills from '../skills/Skills';
 import About from '../about/About';
-import Admin from '../admin/Admin';
 
 class MainContent extends React.Component {
   render() {
     return (
       <div className="container-fluid p-0">
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti'} component={Home} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/experience'} component={Experience} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/content'} component={Content} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/skills'} component={Skills} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/about'} component={About} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/admin'} component={Admin} />
+          <Route exact path={process.env.PUBLIC_URL +'/'} component={Home} />
+          <Route exact path={process.env.PUBLIC_URL +'/experience'} component={Experience} />
+          <Route exact path={process.env.PUBLIC_URL +'/content'} component={Content} />
+          <Route exact path={process.env.PUBLIC_URL +'/skills'} component={Skills} />
+          <Route exact path={process.env.PUBLIC_URL +'/about'} component={About} />
         </Switch>
       </div>
     );
