@@ -114,6 +114,14 @@ section.resume-section .resume-item .resume-date {
   min-width: none;
 }
 
+.about-img {
+  width: 30%;
+}
+
+.rotate-90 {
+  transform: rotate(90deg);
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;
