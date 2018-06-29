@@ -18,7 +18,7 @@ class UserData extends Component {
       .get('user-data')
       .then(response => {
         const personalInformation = response.data;
-        this.setState({ personalInformation });
+        this.setState({ personalInformation});
       })
       .catch(error => console.log(error));
   }
