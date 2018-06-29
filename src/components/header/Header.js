@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-import NavItem from '../navItem/NavItem'
+import NavItem from '../navItem/NavItem';
 
 class Header extends Component {
     constructor(props) {
