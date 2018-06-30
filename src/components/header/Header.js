@@ -8,7 +8,7 @@ class Header extends Component {
         this.navigationItems = {
             items: [
                 {
-                    link: '/lucas-rabuffetti/',
+                    link: '/',
                     name: 'home'
                 },
                 {
@@ -34,7 +34,7 @@ class Header extends Component {
         return (
             <header>
                 <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
-                    <Link className="navbar-brand js-scroll-trigger" to='/lucas-rabuffetti'>
+                    <Link className="navbar-brand js-scroll-trigger" to='/'>
                         <span className="d-block d-lg-none">Lucas Rabuffetti CV</span>
                         <span className="d-none d-lg-block">
                             <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src={require('../../assets/img/profile.png')} alt="" />

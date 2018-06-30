@@ -11,11 +11,11 @@ class MainContent extends React.Component {
     return (
       <div className="container-fluid p-0">
         <Switch>
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti'} component={Home} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/experience'} component={Experience} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/content'} component={Content} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/skills'} component={Skills} />
-          <Route exact path={process.env.PUBLIC_URL +'/lucas-rabuffetti/about'} component={About} />
+          <Route exact path={'/'} component={Home} />
+          <Route exact path={'/lucas-rabuffetti/experience'} component={Experience} />
+          <Route exact path={'/lucas-rabuffetti/content'} component={Content} />
+          <Route exact path={'/lucas-rabuffetti/skills'} component={Skills} />
+          <Route exact path={'/lucas-rabuffetti/about'} component={About} />
         </Switch>
       </div>
     );
