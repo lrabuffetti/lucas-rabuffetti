@@ -122,6 +122,10 @@ section.resume-section .resume-item .resume-date {
   transform: rotate(90deg);
 }
 
+.text-cap::first-letter {
+  text-transform: uppercase;
+}
+
 @media (min-width: 768px) {
   section.resume-section {
     min-height: 100vh;

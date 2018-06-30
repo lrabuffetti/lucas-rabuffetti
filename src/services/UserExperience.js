@@ -31,15 +31,15 @@ class UserExperience extends Component {
             <div className="resume-content mr-auto">
               <h3 className="mb-0">{experience.title}</h3>
               <div className="subheading mb-3">{experience.company}</div>
-              <p>{experience.description}</p>
+              <p className="text-cap">{experience.description}</p>
               <div className="subheading mb-3">Technologies:</div>
               <ul>
                 {experience.technologies.map((technology, index) =>
-                  <li key={index}>{technology}</li>
+                  <li className="text-cap" key={index}>{technology}</li>
                 )}
               </ul>
             </div>
-            <div className="resume-date text-md-right">
+            <div className="resume-date text-md-right text-cap">
               {
                 experience.actual ? 
                 <span className="text-primary">{experience.from} -  actual</span> : 

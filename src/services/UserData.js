@@ -37,7 +37,7 @@ class UserData extends Component {
           {this.state.personalInformation.directionSecondary} · {this.state.personalInformation.phoneNumberSecondary} ·
             <a href={"mailto:" + this.state.personalInformation.email}>{this.state.personalInformation.email}</a>
         </div>
-        <p className="mb-5">{this.state.personalInformation.resume}</p>
+        <p className="mb-5 text-cap">{this.state.personalInformation.resume}</p>
         <ul className="list-inline list-social-icons mb-0">
           <li className="list-inline-item">
             <a href="https://twitter.com/LucasRabuffa" target="_blank" rel="noopener noreferrer">

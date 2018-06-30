@@ -31,7 +31,7 @@ class UserInfo extends Component {
             <div className="resume-content mr-auto">
               <h3 className="mb-0">{education.name}</h3>
               <div className="subheading mb-3">{education.institution}</div>
-              <div>{education.description}</div>
+              <div className="text-cap">{education.description}</div>
             </div>
             <div className="resume-date text-md-right">
               <span className="text-primary">{education.startYear} - {education.endYear}</span>

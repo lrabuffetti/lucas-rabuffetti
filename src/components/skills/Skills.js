@@ -36,6 +36,11 @@ class Skills extends Component {
               <i className="devicons devicons-less"></i>
             </li>
             <li className="list-inline-item">
+              <i className="devicons devicons-react"></i>
+            </li>
+          </ul>
+          <ul className="list-inline list-icons">
+            <li className="list-inline-item">
               <i className="devicons devicons-bootstrap"></i>
             </li>
             <li className="list-inline-item">
@@ -61,6 +66,9 @@ class Skills extends Component {
             </li>
             <li className="list-inline-item">
               <i className="devicons devicons-docker"></i>
+            </li>
+            <li className="list-inline-item">
+              <i className="devicons devicons-jenkins"></i>
             </li>
           </ul>
           <div className="subheading mb-3">Workflow</div>
