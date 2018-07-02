@@ -5,6 +5,7 @@ import Content from '../content/Content';
 import Experience from '../experience/Experience';
 import Skills from '../skills/Skills';
 import About from '../about/About';
+import PersonalProjects from '../personalProjects/personalProjects';
 
 class MainContent extends React.Component {
   render() {
@@ -13,6 +14,7 @@ class MainContent extends React.Component {
         <Switch>
           <Route exact path={'/'} component={Home} />
           <Route exact path={'/lucas-rabuffetti/experience'} component={Experience} />
+          <Route exact path={'/lucas-rabuffetti/personal-projects'} component={PersonalProjects} />
           <Route exact path={'/lucas-rabuffetti/content'} component={Content} />
           <Route exact path={'/lucas-rabuffetti/skills'} component={Skills} />
           <Route exact path={'/lucas-rabuffetti/about'} component={About} />

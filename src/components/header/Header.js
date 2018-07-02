@@ -16,6 +16,10 @@ class Header extends Component {
                     name: 'experience'
                 },
                 {
+                    link: '/lucas-rabuffetti/personal-projects',
+                    name: 'personal projects'
+                },
+                {
                     link: '/lucas-rabuffetti/content',
                     name: 'education'
                 },
