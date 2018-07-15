@@ -27,12 +27,8 @@ class UserData extends Component {
     return (
       <div className="my-auto">
         <h1 className="mb-0">{this.state.personalInformation.name}
-            <span className="text-primary">{this.state.personalInformation.secondName}</span>
+            <span className="text-primary"> {this.state.personalInformation.secondName}</span>
         </h1>
-        <div className="subheading mb-5">
-          {this.state.personalInformation.direction} · {this.state.personalInformation.phoneNumber} ·
-            <a href={"mailto:" + this.state.personalInformation.email}>{this.state.personalInformation.email}</a>
-        </div>
         <div className="subheading mb-5">
           {this.state.personalInformation.directionSecondary} · {this.state.personalInformation.phoneNumberSecondary} ·
             <a href={"mailto:" + this.state.personalInformation.email}>{this.state.personalInformation.email}</a>
