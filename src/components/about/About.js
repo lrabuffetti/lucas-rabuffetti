@@ -8,8 +8,7 @@ class About extends React.Component {
           <h2 className="mb-5">Interests</h2>
           <p>
             Not only I dedicate myself to web programming, in fact, when they ask me: "Who are you?" I always answer, a basketball player
-            who enjoys playing the guitar and good times with family, friends and dog. I'm in a relationship since a couple of months with
-            the most beautiful (woman?) and I'm able to support myself in everything I need.
+            who enjoys playing the guitar and good times with family, friends and dog.
           </p>
           <p>
             I also enjoy good books, outdoor activities and good "mates" and talking with my dad is what I sometimes need to return to Earth.
